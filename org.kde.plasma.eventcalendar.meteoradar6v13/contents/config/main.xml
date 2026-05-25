@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0 http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+  <kcfgfile name=""/>
+  <group name="General">
+    <entry name="calendarUrl" type="String"><label>Public iCal/ICS URL</label><default></default></entry>
+    <entry name="calendarName" type="String"><label>Calendar name</label><default>Online calendar</default></entry>
+    <entry name="weatherWidgetUrl" type="String"><label>Meteo &amp; Radar widget URL</label><default>https://api.wo-cloud.com/content/widget/?geoObjectKey=13229380&amp;language=it&amp;region=IT&amp;timeFormat=HH:mm&amp;windUnit=kmh&amp;systemOfMeasurement=metric&amp;temperatureUnit=celsius</default></entry>
+    <entry name="forecastSiteUrl" type="String"><label>Forecast website URL</label><default>https://www.meteoeradar.it/</default></entry>
+    <entry name="weatherWidgetHeight" type="Int"><label>Meteo &amp; Radar widget height</label><default>260</default><min>120</min><max>900</max></entry>
+    <entry name="showOfficialWidget" type="Bool"><label>Show official Meteo &amp; Radar widget</label><default>true</default></entry>
+    <entry name="latitude" type="Int"><label>Latitude legacy</label><default>444949</default></entry>
+    <entry name="longitude" type="Int"><label>Longitude legacy</label><default>113426</default></entry>
+    <entry name="latitudeText" type="String"><label>Latitude text</label><default>44.4949</default></entry>
+    <entry name="longitudeText" type="String"><label>Longitude text</label><default>11.3426</default></entry>
+    <entry name="forecastHours" type="Int"><label>Forecast hours in meteogram</label><default>12</default><min>6</min><max>24</max></entry>
+    <entry name="meteogramHeight" type="Int"><label>Meteogram height</label><default>130</default><min>90</min><max>260</max></entry>
+    <entry name="eventListHeight" type="Int"><label>Event list height</label><default>150</default><min>80</min><max>500</max></entry>
+    <entry name="compactMode" type="Bool"><label>Compact mode</label><default>false</default></entry>
+    <entry name="keepPopupOpen" type="Bool"><label>Keep popup open</label><default>false</default></entry>
+    <entry name="refreshMinutes" type="Int"><label>Refresh interval in minutes</label><default>30</default><min>5</min><max>1440</max></entry>
+  </group>
+</kcfg>

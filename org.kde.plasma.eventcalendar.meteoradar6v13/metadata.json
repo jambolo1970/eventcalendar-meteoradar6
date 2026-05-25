@@ -1,0 +1,15 @@
+{
+  "KPlugin": {
+    "Id": "org.kde.plasma.eventcalendar.meteoradar6v13",
+    "Name": "Event Calendar MeteoRadar 6 V13",
+    "Description": "Plasma 6 calendar with online iCal events, Meteo & Radar widget and 3D-style hourly meteogram",
+    "Version": "0.9.3",
+    "Authors": [{ "Name": "jambolo" }],
+    "Category": "Date and Time",
+    "Icon": "view-calendar",
+    "License": "GPL-3.0-or-later",
+    "Website": "https://www.kde.org/plasma-desktop"
+  },
+  "KPackageStructure": "Plasma/Applet",
+  "X-Plasma-API-Minimum-Version": "6.0"
+}
