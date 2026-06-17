@@ -124,6 +124,6 @@ assets/                                        icona progetto
 scripts/package.sh                             script per creare il .plasmoid
 ```
 
-## Licenza
+## Licenza ℹ️
 
 GPLv3 o successiva. Vedi `LICENSE`.
